@@ -12,10 +12,6 @@ This project uses:
 - React Dom 16.6.3
 - React Scripts 3.0.1
 
-As of writing this readme (Aug. 31, 2021)
-React 16.8.6 is the last version of React that has [online 
-documentation](https://5d4b5feba32acd0008d0df98--reactjs.netlify.app).
-
 ### `npm start`
 This command will start this project to test it out. 
 
@@ -32,7 +28,3 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
