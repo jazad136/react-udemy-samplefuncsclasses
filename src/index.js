@@ -5,9 +5,28 @@ import ReactDOM from 'react-dom'
 
 // Create a react component
 
+function getTime() { 
+    return (new Date()).toLocaleTimeString()
+}
 const App = () => {
-    return <div>Hi there!</div>
+    // const buttonText = 'Click Me!';
+    // const buttonText = ['Hi', 'There'];
+    // const buttonText = ['10', '20'];
 
+    const buttonText = {text: 'Click me now'}
+    return (
+        <div>
+            <div>Current Time</div>
+            <h3>{getTime()}</h3>
+            <label className="label" htmlFor="name">Enter name:</label>
+            <input id="name" type="text"/>
+            <button style={{ backgroundColor: 'blue', color: 'white'}}>
+                {buttonText.text}
+            </button>
+
+            
+        </div>
+    );
 }
 
 
@@ -16,4 +35,4 @@ const App = () => {
 ReactDOM.render(
     <App />,
     document.querySelector('#root')
-)
+)   
