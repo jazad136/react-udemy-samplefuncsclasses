@@ -12,7 +12,10 @@ This project uses:
 - React Dom 16.6.3
 - React Scripts 3.0.1
 
+### Some components
+The built in Date time module. 
 ### `npm start`
+
 This command will start this project to test it out. 
 
 This project was bootstrapped with [Create React App] 
@@ -21,10 +24,6 @@ This project was bootstrapped with [Create React App]
 ### `npm run build`
 
 #### not a required command. 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Builds the app for production to the `build` folder, correctly bundilng React in production mode and optimizing the build for the best performance.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
