@@ -13,7 +13,12 @@ This project uses:
 - React Scripts 3.0.1
 
 ### Some components
-The built in Date time module. 
+- The TimeApp module.
+<br>(not working yet (Sep. 19). This is in the 'jsx' project)
+<br>(for a sample project from the course)
+
+## Commands to run things. 
+
 ### `npm start`
 
 This command will start this project to test it out. 
