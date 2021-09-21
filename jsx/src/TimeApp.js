@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 function getTime() { 
     return (new Date()).toLocaleTimeString()
 }
-function getTime() { 
+function getDate() { 
     return (new Date()).toLocaleDateString()
 }
 export class TimeApp extends Component {

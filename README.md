@@ -14,8 +14,12 @@ This project uses:
 
 ### Some components
 - The TimeApp module.
-<br>(not working yet (Sep. 19). This is in the 'jsx' project)
+ This is in the 'jsx' project)
 <br>(for a sample project from the course)
+
+*TimeApp Updates*
+<br>not working yet (Sep. 19).
+<br>working now! Needed to do imports correctly (Sep. 21)
 
 ## Commands to run things. 
 
