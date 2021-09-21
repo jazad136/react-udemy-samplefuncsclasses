@@ -18,8 +18,10 @@ This project uses:
 <br>(for a sample project from the course)
 
 *TimeApp Updates*
-<br>not working yet (Sep. 19).
-<br>working now! Needed to do imports correctly (Sep. 21)
+- not working yet (Sep. 19).
+- working now! Needed to do imports correctly (Sep. 21)
+
+- The Components module. (for the comments project) 
 
 ## Commands to run things. 
 
