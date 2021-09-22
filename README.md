@@ -18,10 +18,13 @@ This project uses:
 <br>(for a sample project from the course)
 
 *TimeApp Updates*
-- not working yet (Sep. 19).
-- working now! Needed to do imports correctly (Sep. 21)
+<br>not working yet (Sep. 19).
+<br>working now! Needed to do imports correctly (Sep. 21)
 
 - The Components module. (for the comments project) 
+*Components Updates*
+<br>CommentDetail is now a component
+<br>...now it can be used again and again to duplicate comments (Sep. 12)
 
 ## Commands to run things. 
 
