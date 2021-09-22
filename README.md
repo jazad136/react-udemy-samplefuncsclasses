@@ -12,17 +12,17 @@ This project uses:
 - React Dom 16.6.3
 - React Scripts 3.0.1
 
-### Some components
-- The TimeApp module. 
-<br>This is in the "jsx" directory
+### Projects in this Repository
+- The TimeApp project. 
+<br>This is located in the "jsx" directory
 <br>(for a sample project from the course)
 
 *TimeApp Updates*
 <br>not working yet (Sep. 19).
 <br>working now! Needed to do imports correctly (Sep. 21)
 
-- The Components module.
-<br>This is in the "components" directory
+- The Components project.
+<br>This is located in the "components" directory
 <br>(for the comments project from the course)
 
 *Components Updates*
