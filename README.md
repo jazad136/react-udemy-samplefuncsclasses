@@ -13,18 +13,21 @@ This project uses:
 - React Scripts 3.0.1
 
 ### Some components
-- The TimeApp module.
- This is in the 'jsx' project)
+- The TimeApp module. 
+<br>This is in the "jsx" directory
 <br>(for a sample project from the course)
 
 *TimeApp Updates*
 <br>not working yet (Sep. 19).
 <br>working now! Needed to do imports correctly (Sep. 21)
 
-- The Components module. (for the comments project) 
+- The Components module.
+<br>This is in the "components" directory
+<br>(for the comments project from the course)
+
 *Components Updates*
 <br>CommentDetail is now a component
-<br>...now it can be used again and again to duplicate comments (Sep. 12)
+<br>...now it can be used again and again to duplicate comments (Sep. 21)
 
 ## Commands to run things. 
 
