@@ -12,6 +12,9 @@ This project uses:
 - React Dom 16.6.3
 - React Scripts 3.0.1
 
+## Snapshots
+### Expected Output: 
+![ExpectedOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/master/readme-artifacts/Expectation_CommentDetail_GriderClass.png) 
 ### Projects in this Repository
 - The TimeApp project. 
 <br>This is located in the "jsx" directory
