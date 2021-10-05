@@ -14,7 +14,10 @@ This project uses:
 
 ## Snapshots
 ### Expected Output: 
-![ExpectedOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/master/readme-artifacts/Expectation_CommentDetail_GriderClass.png) 
+
+![ExpectedOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Expectation_CommentDetail_GriderClass.png) 
+
+
 ### Projects in this Repository
 - The TimeApp project. 
 <br>This is located in the "jsx" directory
@@ -29,8 +32,18 @@ This project uses:
 <br>(for the comments project from the course)
 
 *Components Updates*
+
 <br>CommentDetail is now a component
 <br>...now it can be used again and again to duplicate comments (Sep. 21)
+<br>CommentDetail can be passed four "props" to help with customization: (Oct. 5) 
+<br>**name of poster**, 
+<br>**update time**, 
+<br>**comment text content**, 
+<br>**and an avatar picture**.  
+
+**Here is a snapshot** 
+
+![ExpectedOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-commentdetail-cp.png) 
 
 ## Commands to run things. 
 
