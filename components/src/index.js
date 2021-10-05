@@ -8,17 +8,17 @@ const App = () => {
             <CommentDetail 
                 author="Sam" 
                 timeAgo="Today at 4:45PM" 
-                content="I do what I can."
+                content="Nice blog post"
                 avatarSrc={Faker.image.avatar()}/>
             <CommentDetail 
                 author="Alex" 
                 timeAgo="Today at 2:00PM"
-                content="Thank you for the compliment."
+                content="I like the subject"
                 avatarSrc={Faker.image.avatar()}/>
             <CommentDetail 
                 author="Jane" 
                 timeAgo="Yesterday at 5:00PM"
-                content="Good job on the blog post."
+                content="I like the writing"
                 avatarSrc={Faker.image.avatar()}/>
         </div>
     );
