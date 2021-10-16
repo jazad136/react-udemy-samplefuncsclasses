@@ -36,6 +36,10 @@ This project uses:
 <br>This is located in the "components" directory
 <br>(for the comments project from the course)
 
+- The Seasons project. 
+<br>This is located in the "seasons" directory
+<br>(for the seasons project from the course) 
+
 *Components Updates*
 <br>CommentDetail is now a component
 <br>...now it can be used again and again to duplicate comments (Sep. 21)
