@@ -13,10 +13,15 @@ This project uses:
 - React Scripts 3.0.1
 
 ## Snapshots
-### Expected Output: 
+### Expected Output ("Components" Project) : 
 
 ![ExpectedOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Expectation_CommentDetail_GriderClass.png) 
 
+**("Components" Project is complete, here's a sample)**
+
+### Current Output:  
+
+![CurrentOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-commentdetail-appr.png) 
 
 ### Projects in this Repository
 - The TimeApp project. 
@@ -32,18 +37,13 @@ This project uses:
 <br>(for the comments project from the course)
 
 *Components Updates*
-
 <br>CommentDetail is now a component
 <br>...now it can be used again and again to duplicate comments (Sep. 21)
 <br>CommentDetail can be passed four "props" to help with customization: (Oct. 5) 
-<br>**name of poster**, 
-<br>**update time**, 
-<br>**comment text content**, 
+<br>**name of poster**, **update time**, **comment text content**, 
 <br>**and an avatar picture**.  
-
-**Here is a snapshot** 
-
-![ExpectedOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-commentdetail-cp.png) 
+<br>Added a semantic UI card wrapper around approval card (Oct. 5)
+<br>Can substitute profile picture with a warning inside card (Oct. 8)
 
 ## Commands to run things. 
 
