@@ -13,6 +13,7 @@ This project uses:
 - React Scripts 3.0.1
 
 ## Snapshots
+
 ### Expected Output ("Components" Project) : 
 
 ![ExpectedOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Expectation_CommentDetail_GriderClass.png) 
@@ -22,6 +23,15 @@ This project uses:
 ### Current Output:  
 
 ![CurrentOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-commentdetail-appr.png) 
+
+### Expected Output ("Seasons" Project) : 
+
+![ExpectedOutput Part 1](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Part1_Expectation_Seasons.png)
+![ExpectedOutput Part 2](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Part2_Expectation_Seasons.png)
+
+### Current Output:  
+
+![CurrentOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-seasons-lat.png) 
 
 ### Projects in this Repository
 - The TimeApp project. 
