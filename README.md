@@ -14,26 +14,25 @@ This project uses:
 
 ## Snapshots
 
-### Expected Output ("Components" Project) : 
 
-![ExpectedOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Expectation_CommentDetail_GriderClass.png) 
+#### Expected Output ("Components" Project): 
 
-**("Components" Project is complete, here's a sample)**
+![ExpectedOutput_Components](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Expectation_CommentDetail_GriderClass.png )
 
-### Current Output:  
+#### Current Output ("Components" Project):  
 
-![CurrentOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-commentdetail-appr.png) 
+![CurrentOutput_Components](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-commentdetail-appr.png) 
 
-### Expected Output ("Seasons" Project) : 
+#### Expected Output ("Seasons" Project): 
 
 ![ExpectedOutput Part 1](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Part1_Expectation_Seasons.png)
 ![ExpectedOutput Part 2](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Part2_Expectation_Seasons.png)
 
-### Current Output:  
+#### Current Output ("Seasons" Project) (unfinished): 
 
-![CurrentOutput](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-seasons-lat.png) 
+![CurrentOutput_Seasons](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-seasons-lat.png) 
 
-### Projects in this Repository
+### Projects in this Repository (TimeApp, Components, and Seasons)
 - The TimeApp project. 
 <br>This is located in the "jsx" directory
 <br>(for a sample project from the course)
@@ -46,10 +45,6 @@ This project uses:
 <br>This is located in the "components" directory
 <br>(for the comments project from the course)
 
-- The Seasons project. 
-<br>This is located in the "seasons" directory
-<br>(for the seasons project from the course) 
-
 *Components Updates*
 <br>CommentDetail is now a component
 <br>...now it can be used again and again to duplicate comments (Sep. 21)
@@ -58,6 +53,13 @@ This project uses:
 <br>**and an avatar picture**.  
 <br>Added a semantic UI card wrapper around approval card (Oct. 5)
 <br>Can substitute profile picture with a warning inside card (Oct. 8)
+
+- The Seasons project. 
+<br>This is located in the "seasons" directory
+<br>(for the seasons project from the course) 
+
+*Seasons Updates* 
+<br>Using ComponentDidMount to get geolocation of client with permission (Nov. 6)
 
 ## Commands to run things. 
 
