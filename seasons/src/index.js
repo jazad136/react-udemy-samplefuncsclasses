@@ -1,24 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-
+import SeasonDisplay from './SeasonDisplay';
+import "semantic-ui-css/semantic.min.css";
 class App extends React.Component {
-    constructor(props) { 
-        super(props);
 
-        // here we have to initialize the state
-        // using the equal sign. 
-        this.state = {lat: null, errorMessage: ''}
+    state = {lat: null, errorMessage: ''};
+    
+    componentDidMount() {
         window.navigator.geolocation.getCurrentPosition(
-            position => {
-                // we called setState to update the position
-                // not set the state element. 
-                this.setState({lat: position.coords.latitude})
-            },
-            // err => console.log(err)
-            err => {
-                this.setState({errorMessage: err.message})
-                console.log(err)
-            }
+            position => this.setState({lat: position.coords.latitude}),
+            err => this.setState({errorMessage: err.message})
         ); 
     }
 
@@ -27,7 +18,7 @@ class App extends React.Component {
             return <div>Error: {this.state.errorMessage}</div>
         }
         else if(!this.state.errorMessage && this.state.lat) { 
-            return <div>Latitude: {this.state.lat}</div>
+            return <SeasonDisplay lat={this.state.lat}/>
         }
         return <div>Loading!</div>
     }
