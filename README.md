@@ -12,8 +12,33 @@ This project uses:
 - React Dom 16.6.3
 - React Scripts 3.0.1
 
+### Projects in this Repository (TimeApp, Components, Seasons, and Pics)
+- The TimeApp project. 
+<br>This is located in the "jsx" directory
+<br>(for a sample project from the course)
+
+- The Components project.
+<br>This is located in the "components" directory
+<br>(for the comments project from the course)
+
+- The Seasons project. 
+<br>This is located in the "seasons" directory
+<br>(for the seasons project from the course) 
+
+- The Pics project.
+<br>This is located in the "pics" directory
+<br>(for the pics project from the course) 
+
 ## Snapshots
 
+#### Expected Output ("Seasons" Project): 
+
+![ExpectedOutput Part 1](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Part1_Expectation_Seasons.png)
+![ExpectedOutput Part 2](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Part2_Expectation_Seasons.png)
+
+#### Current Output ("Seasons" Project) (finished): 
+
+![CurrentOutput_Seasons](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-seasons-display.png) 
 
 #### Expected Output ("Components" Project): 
 
@@ -23,27 +48,11 @@ This project uses:
 
 ![CurrentOutput_Components](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-commentdetail-appr.png) 
 
-#### Expected Output ("Seasons" Project): 
+### Updates to Projects in this Repository (TimeApp, Components, and Seasons)
 
-![ExpectedOutput Part 1](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Part1_Expectation_Seasons.png)
-![ExpectedOutput Part 2](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Part2_Expectation_Seasons.png)
-
-#### Current Output ("Seasons" Project) (unfinished): 
-
-![CurrentOutput_Seasons](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-seasons-lat.png) 
-
-### Projects in this Repository (TimeApp, Components, and Seasons)
-- The TimeApp project. 
-<br>This is located in the "jsx" directory
-<br>(for a sample project from the course)
-
-*TimeApp Updates*
-<br>not working yet (Sep. 19).
-<br>working now! Needed to do imports correctly (Sep. 21)
-
-- The Components project.
-<br>This is located in the "components" directory
-<br>(for the comments project from the course)
+*Seasons Updates* 
+<br>(Nov. 6) Using ComponentDidMount to get geolocation of client with permission 
+<br>(Jan 10) Seasons project is complete.   
 
 *Components Updates*
 <br>CommentDetail is now a component
@@ -54,12 +63,11 @@ This project uses:
 <br>Added a semantic UI card wrapper around approval card (Oct. 5)
 <br>Can substitute profile picture with a warning inside card (Oct. 8)
 
-- The Seasons project. 
-<br>This is located in the "seasons" directory
-<br>(for the seasons project from the course) 
+*TimeApp Updates*
+<br>not working yet (Sep. 19).
+<br>working now! Needed to do imports correctly (Sep. 21)
 
-*Seasons Updates* 
-<br>Using ComponentDidMount to get geolocation of client with permission (Nov. 6)
+
 
 ## Commands to run things. 
 
