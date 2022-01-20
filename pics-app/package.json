@@ -1,5 +1,5 @@
 {
-  "name": "pics",
+  "name": "pics-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
