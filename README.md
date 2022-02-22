@@ -31,6 +31,15 @@ This project uses:
 
 ## Snapshots
 
+#### Current Output ("Pics" Project): (it's big)
+
+Start pics-app project ...
+
+![ExpectedOutput_Pics](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/look-pics-gridcorrect.png)
+
+... End pics-app project
+
+
 #### Expected Output ("Seasons" Project): 
 
 ![ExpectedOutput Part 1](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/Part1_Expectation_Seasons.png)
