@@ -35,7 +35,7 @@ This project uses:
 
 ## Snapshots
 
-#### Current Output ("Videos" Project: (it's big)
+#### Current Output ("Videos" Project): (it's big)
 
 *A [design](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/design-videos.png) is also available*
 
@@ -68,6 +68,9 @@ Start pics-app project ...
 ![CurrentOutput_Components](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/status-commentdetail-appr.png) 
 
 ### Updates to Projects in this Repository (TimeApp, Components, and Seasons)
+
+*Videos Updates*
+<br>(Feb. 22) Start Videos App 
 
 *Seasons Updates* 
 <br>(Nov. 6) Using ComponentDidMount to get geolocation of client with permission 
