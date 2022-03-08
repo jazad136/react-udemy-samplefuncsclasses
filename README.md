@@ -35,6 +35,12 @@ This project uses:
 
 ## Snapshots
 
+#### Current Output ("Videos" Project: (it's big)
+
+*A [design](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/design-videos.png) is also available*
+
+![ExpectedOutput_Videos](https://github.com/jazad136/react-udemy-samplefuncsclasses/blob/main/readme-artifacts/look-videos-a3.png)
+
 #### Current Output ("Pics" Project): (it's big)
 
 Start pics-app project ...
