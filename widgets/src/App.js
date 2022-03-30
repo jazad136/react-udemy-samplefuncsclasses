@@ -15,8 +15,8 @@ const items = [
         content: 'You use react by creating components'
     }
 ]
-export default () => { 
-
+export default () => {
+     
     return (
         <div>
             <Accordion items={items}/>
