@@ -1,6 +1,9 @@
 import React from 'react'
+//eslint-disable-next-line
 import Accordion from './components/Accordion';
+import Search from './components/Search';
 
+//eslint-disable-next-line
 const items = [
     {
         title: 'What is React?',
@@ -19,7 +22,7 @@ export default () => {
      
     return (
         <div>
-            <Accordion items={items}/>
+            <Search />
         </div>
     );
 }
