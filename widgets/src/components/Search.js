@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios'
 const Search = () => {
-  const [term, setTerm] = useState('');
+  const [term, setTerm] = useState('programming');
+  const [results, setResults] = useState([]);
+  
+  useEffect(() => { 
+    console.log(results)
+  }, [results])
 
   useEffect(() => {
     const search = async () => { 
-        await axios.get('https://en.wikipedia.org/w/api.php',{
+        const {data} = await axios.get('https://en.wikipedia.org/w/api.php',{
             params: {
                 action: 'query',
                 list: 'search',
@@ -14,10 +19,19 @@ const Search = () => {
                 srsearch: term
             }
         })
+
+        setResults(data.query.search)
     }
     search()
   }, [term]);
-
+//   const outsList = results.map(({pageId, title, wordcount}) => {
+//         return <div key={pageId}>
+//             <p>
+//                 <span style={{fontSize: "larger"}}> {title}</span>
+//                     &nbsp;{wordcount}
+//             </p>
+//         </div>
+//     })
   return (
     <div className="search">
       <div className="ui form">
@@ -29,6 +43,9 @@ const Search = () => {
             className="input"
           ></input>
         </div>
+        {/* <div className="results">
+            {outsList}
+        </div> */}
       </div>
     </div>
   );
