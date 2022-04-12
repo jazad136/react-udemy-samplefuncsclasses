@@ -12,7 +12,7 @@ This project uses:
 - React Dom 16.6.3
 - React Scripts 3.0.1
 
-### Projects in this Repository (TimeApp, Components, Seasons, Pics, Videos)
+### Projects in this Repository (TimeApp, Components, Seasons, Pics, Videos, Widgets)
 - The TimeApp project. 
 <br>This is located in the "jsx" directory
 <br>(for a sample project from the course)
@@ -32,6 +32,10 @@ This project uses:
 - The Videos project. 
 <br>This is located in the "videos-app" directory
 <br>(for the videos project from the course)
+
+- The Widgets project. 
+<br>This is located in the "widgets" directory
+<br>(for the widgets project from the course) 
 
 ## Snapshots
 
