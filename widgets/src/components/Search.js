@@ -5,9 +5,9 @@ const Search = () => {
   const [term, setTerm] = useState('programming');
   const [results, setResults] = useState([]);
   
-  useEffect(() => { 
-    console.log(results)
-  }, [results])
+  // useEffect(() => { 
+  //   console.log(results)
+  // }, [results])
 
   useEffect(() => {
     const search = async () => { 
@@ -26,15 +26,19 @@ const Search = () => {
     search()
   }, [term]);
   const renderedResults = results.map((result) => {
-        return <div key={result.pageId} className="item">
-              <div className="content">
-                <div className="header">
-                  {result.title}
-                </div>
-                {result.snippet}
-              </div>
-            </div>
-    })
+    // use cleanSnippet to create some angle-bracketless text. 
+    // const regex = /(<([^>]+)>)/gi;
+    // const cleanSnippet = result.snippet.replace(regex,"");
+
+    return (<div key={result.pageid} className="item">
+      <div className="content">
+        <div className="header"> {result.title} </div>
+        {/* {result.snippet}<br/> */}
+        <span dangerouslySetInnerHTML={{__html: result.snippet }}></span>
+        {/* {cleanSnippet} */}
+      </div>
+    </div>);
+  });
   return (
     <div className="search">
       <div className="ui form">
