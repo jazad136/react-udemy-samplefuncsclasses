@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios'
+
 const Search = () => {
   const [term, setTerm] = useState('programming');
   const [results, setResults] = useState([]);
@@ -24,14 +25,18 @@ const Search = () => {
     }
     search()
   }, [term]);
-//   const outsList = results.map(({pageId, title, wordcount}) => {
-//         return <div key={pageId}>
-//             <p>
-//                 <span style={{fontSize: "larger"}}> {title}</span>
-//                     &nbsp;{wordcount}
-//             </p>
-//         </div>
-//     })
+  const renderedResults = results.map((result) => {
+        return <div key={result.pageid}>
+            <div className="item">
+              <div className="content">
+                <div className="header">
+                  {result.title}
+                </div>
+                {result.snippet}
+              </div>
+            </div>
+        </div>
+    })
   return (
     <div className="search">
       <div className="ui form">
@@ -43,9 +48,9 @@ const Search = () => {
             className="input"
           ></input>
         </div>
-        {/* <div className="results">
-            {outsList}
-        </div> */}
+        <div className="ui celled list">
+          {renderedResults}
+        </div>
       </div>
     </div>
   );
