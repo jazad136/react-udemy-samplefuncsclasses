@@ -23,14 +23,23 @@ const Search = () => {
 
         setResults(data.query.search)
     }
-    search()
+    if(term) {
+      search()
+    }
   }, [term]);
   const renderedResults = results.map((result) => {
-    // use cleanSnippet to create some angle-bracketless text. 
+    // use this regex to create some angle-bracketless text. 
     // const regex = /(<([^>]+)>)/gi;
     // const cleanSnippet = result.snippet.replace(regex,"");
 
     return (<div key={result.pageid} className="item">
+      <div className="right floated content">
+        <a 
+        className="ui button"
+        href={`https://en.wikipedia.org?curid=${result.pageid}`}>
+          Go
+        </a>
+      </div>
       <div className="content">
         <div className="header"> {result.title} </div>
         {/* {result.snippet}<br/> */}
