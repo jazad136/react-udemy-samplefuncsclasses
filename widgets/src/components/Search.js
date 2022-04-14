@@ -23,9 +23,8 @@ const Search = () => {
 
         setResults(data.query.search)
     }
-    if(term) {
-      search()
-    }
+    search()
+    
   }, [term]);
   const renderedResults = results.map((result) => {
     // use this regex to create some angle-bracketless text. 
