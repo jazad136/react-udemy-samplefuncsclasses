@@ -26,8 +26,7 @@ const Search = () => {
     search()
   }, [term]);
   const renderedResults = results.map((result) => {
-        return <div key={result.pageid}>
-            <div className="item">
+        return <div key={result.pageId} className="item">
               <div className="content">
                 <div className="header">
                   {result.title}
@@ -35,7 +34,6 @@ const Search = () => {
                 {result.snippet}
               </div>
             </div>
-        </div>
     })
   return (
     <div className="search">
