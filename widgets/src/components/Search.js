@@ -5,10 +5,6 @@ const Search = () => {
   const [term, setTerm] = useState('programming');
   const [results, setResults] = useState([]);
   
-  // useEffect(() => { 
-  //   console.log(results)
-  // }, [results])
-
   useEffect(() => {
     const search = async () => { 
         const {data} = await axios.get('https://en.wikipedia.org/w/api.php',{
@@ -23,15 +19,20 @@ const Search = () => {
 
         setResults(data.query.search)
     };
-    const timeoutId = setTimeout(() => { 
-      if(term) { 
-        search()
+    if(term && !results.length) { 
+      search()
+    } else {
+      const timeoutId = setTimeout(() => { 
+        if(term) { 
+          search()
+        }
+      }, 1000);
+      return () => { 
+        // cleanup function takes the timeoutId and cancels the previous timer
+        clearTimeout(timeoutId);
       }
-    }, 500);
-    return () => { 
-      // cleanup function takes the timeoutId and cancels the previous timer
-      clearTimeout(timeoutId);
     }
+    
   }, [term]);
   const renderedResults = results.map((result) => {
     // use this regex to create some angle-bracketless text. 
