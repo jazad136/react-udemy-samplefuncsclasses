@@ -28,7 +28,10 @@ const Search = () => {
         search()
       }
     }, 500);
-    
+    return () => { 
+      // cleanup function takes the timeoutId and cancels the previous timer
+      clearTimeout(timeoutId);
+    }
   }, [term]);
   const renderedResults = results.map((result) => {
     // use this regex to create some angle-bracketless text. 
